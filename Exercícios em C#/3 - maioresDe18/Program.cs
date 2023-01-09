@@ -16,6 +16,7 @@ class maioresDe18
             }
         }
 
+        System.Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=");
         System.Console.WriteLine($"Exitem {maiores} pessoas com mais de 18 anos");
     }
 }

@@ -19,6 +19,7 @@ class mediaIdades
             soma += item;
         }
 
+        System.Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=");
         System.Console.WriteLine($"A média entre as idades é: {soma / 5:f1}");
     }
 }
