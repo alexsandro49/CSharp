@@ -3,20 +3,13 @@ class mediaIdades
 {   
     public static void Main(string[] args)
     {
-
-        byte[] idades = new byte[5];
-
         System.Console.WriteLine("Programa para calcular a idade média entre 5 alunos:");
+        
+        float soma = 0;
         for (int i = 0; i < 5; i++)
         {
             System.Console.Write($"Idade do aluno {i+1}: ");
-            idades[i] = byte.Parse(Console.ReadLine());    
-        }
-
-        float soma = 0;
-        foreach (var item in idades)
-        {
-            soma += item;
+            soma += byte.Parse(Console.ReadLine());    
         }
 
         System.Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=");
